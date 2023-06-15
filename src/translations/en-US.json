@@ -1,8 +1,9 @@
 {
-  "APP_NAME": "RockstaTest",
-  "About": "About",
+  "APP_NAME": "Vtech-Softwares",
+  "About": "ABOUT",
+  "contactus":"CONTACT US",
   "Hello world !": "Hello world !",
-  "Home": "Home",
+  "Home": "HOME",
   "Logged in as": "Logged in as",
   "Login": "Login",
   "Logout": "Logout",
