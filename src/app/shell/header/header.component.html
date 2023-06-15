@@ -11,6 +11,10 @@
       <mat-icon>home</mat-icon>
       <span translate>Home</span>
     </button>
+    <button mat-button routerLink="/contactus" routerLinkActive="active">
+      <mat-icon>contacts</mat-icon>
+      <span translate>contactus</span>
+    </button>
     <button mat-button routerLink="/about" routerLinkActive="active">
       <mat-icon>info</mat-icon>
       <span translate>About</span>
@@ -18,10 +22,10 @@
   </div>
   <span fxFlex></span>
   <app-language-selector [icon]="true"></app-language-selector>
-  <button mat-icon-button [matMenuTriggerFor]="userMenu">
+  <!-- <button mat-icon-button [matMenuTriggerFor]="userMenu">
     <mat-icon>person</mat-icon>
-  </button>
-  <mat-menu #userMenu="matMenu">
+  </button> -->
+  <!-- <mat-menu #userMenu="matMenu">
     <mat-list>
       <mat-list-item>
         <span translate>Logged in as</span>&nbsp;<b>{{ username }}</b>
@@ -29,5 +33,5 @@
       <mat-divider></mat-divider>
     </mat-list>
     <button mat-menu-item (click)="logout()" translate>Logout</button>
-  </mat-menu>
+  </mat-menu> -->
 </mat-toolbar>
